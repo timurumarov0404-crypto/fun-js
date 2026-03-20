@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.box{
+    min-height: 100vh;
+    padding: 100;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: radial-gradient(circle ,#034159 ,#025951);
+}
+.card{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px #02735E ; 
+    transition-property: transform , box-shadow;   
+    transition-duration:.5s ;
+}
+.card:hover{
+    transform: scale(1.01, 1.02);
+    box-shadow:1px 1px 5px #038C3E,
+               1px 1px 5px #038C3E ;
+}
